@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+body{
+    margin: 0;
+    padding: 0%;
+    background-image: url(kepek/hatter.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+* {
+    box-sizing: border-box;
+}
+main{
+    margin: auto;
+    color: white;
+    padding: 15px;
+    width: 80%;
+    max-width: 800px;
+    background-color: black;
+}
+header{
+    padding: 5px;
+    font-family: 'Klee One';
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+nav li{
+    list-style-type: none;
+    padding: 5px;
+}
+#menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#menu a{
+    border: 1px solid white;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(0, 255, 8);
+}
+#menu a:hover{
+    color: red;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+  ::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 10px;
+}
