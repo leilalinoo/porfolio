@@ -55,13 +55,13 @@ img{
 .container {
     position: relative;
     width: 100%;
-  }
-  
+}  
 .image {
     display: block;
     width: 100%;
     height: auto;
-  }
+    padding: 5px;
+}
 .overlay{
     position: absolute;
     top: 0;
@@ -89,3 +89,13 @@ img{
     transform: translate(-50%, -50%);
     text-align: center;
   }
+  .weblaplink{
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+.adag{
+    padding-bottom: 15px;
+    border: 1px solid red;
+    margin: 5px;
+}
