@@ -30,7 +30,7 @@ nav li{
 }
 #menu{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 #menu a{
     border: 1px solid white;
@@ -98,4 +98,5 @@ img{
     padding-bottom: 15px;
     border: 1px solid red;
     margin: 5px;
+    padding: 5px;
 }

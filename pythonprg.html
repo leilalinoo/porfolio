@@ -1,32 +1,63 @@
 <!DOCTYPE html>
 <html lang="hu">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Eddigi munkáim: programozás python nyelven.">
-    <meta name="keywords" content="programozás, python, oop">
-    <meta name="author" content="Ábrahám Leila">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Eddigi munkáim: programozás python nyelven."
+    />
+    <meta name="keywords" content="programozás, python, oop" />
+    <meta name="author" content="Ábrahám Leila" />
+    <link rel="stylesheet" href="style.css" />
     <title>Ábrahám Leila</title>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <header>Eddigi munkáim, webfejlesztés, programozás</header>
-        <nav>
-            <ul id="menu">
-                <li><a href="index.html">Főoldal</a></li>
-                <li><a href="javaprg.html">Programok - java</a></li>
-                <li><a href="pythonprg.html">Programok - python</a></li>
-                <li><a href="weboldalak.html">Weboldalak</a></li>
-            </ul>
-        </nav>
-        <article>
-            <h3>Programozás python nyelven</h3>
-            <p>2022 óta programozok java nyelven. Tanulmányaimat SZÁMALK-Szalézi iskolában kezdtem el, jelenleg is itt tanulok.</p>
-            <p>Most összegyűjtöttem néhány munkámat bemutatásra az elmúlt évekből:</p>
-        </article>
+      <header>Eddigi munkáim, webfejlesztés, programozás</header>
+      <nav>
+        <ul id="menu">
+          <li><a href="index.html">Főoldal</a></li>
+          <li><a href="weboldalak.html">Weboldalak</a></li>
+          <li><a href="javaprg.html">Programok - java</a></li>
+          <li><a href="pythonprg.html">Programok - python</a></li>
+          <li><a href="halozatok.html">Hálózatok</a></li>
+        </ul>
+      </nav>
+      <article>
+        <h3>Programozás python nyelven</h3>
+        <p>
+          2022 óta programozok java nyelven. Tanulmányaimat SZÁMALK-Szalézi
+          iskolában kezdtem el, jelenleg is itt tanulok.
+        </p>
+        <p>
+          Most összegyűjtöttem néhány munkámat bemutatásra az elmúlt évekből:
+        </p>
+        <p>A képre kattintva letöltheti a feladatot:</p>
+
+        <div class="adag">
+            <div class="container">
+                <a href="pyprg/fibonaccifeladat.py" download="fibonaccifeladat.py">
+                    <img src="kepek/python/fibonacci.jpg" alt="Fibonacci meghívása"  class="image" />
+                    <div class="overlay">
+                        <div class="text">Fibonacci sor feladat</div>
+                    </div>
+                </div>
+                </a>
+            <p>
+                A program magyarázata: A program paraméterezéssel kap egy számot,
+                ezt egy lista hosszának veszi. A program ellenőrzött bekéréssel
+                bekér a usertől egy pozitív egész számot, és attól a számtól indulva
+                felír egy Fibonacci számsor szerű listát, melynek hossza ugybár a
+                paraméter. Tehát a konzolon megjelenő számsor első számjegye a beírt
+                szám, és mivel az elv az, hogy mindig az előzőt kell hozzáadni, a
+                következő is az lesz.
+                Az eredeti Fibonacci sor első öt számjegye példának: 1, 1, 2, 3, 5.
+                </p>
+            
+        </div>
+      </article>
     </main>
-    
-</body>
+  </body>
 </html>
