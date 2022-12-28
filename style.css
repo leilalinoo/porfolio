@@ -78,6 +78,7 @@ nav{
 }
 article {
   grid-area: a;
+  text-align: justify;
 }
 aside {
   grid-area: as;
@@ -85,6 +86,8 @@ aside {
 footer {
   font-family: "Klee One";
   grid-area: f;
+  text-align: center;
+  padding: 5px;
 }
 ::-webkit-scrollbar {
   width: 10px;
@@ -141,7 +144,7 @@ img {
   text-decoration: none;
   color: white;
 }
-.erettsegilink {
+.link {
   color: darkturquoise;
   text-decoration: none;
 }
@@ -150,4 +153,22 @@ img {
   border: 1px solid red;
   margin: 5px;
   padding: 5px;
+}
+.itsme{
+    text-align: center;
+    font-family: "Klee One";
+}
+audio::-webkit-media-controls-panel{
+    background-color: rgb(0, 230, 54);
+}
+audio::-webkit-media-controls-mute-button {
+    background-color:rgba(177,212,224, .7);
+    border-radius: 50%;
+}
+audio::-webkit-media-controls-play-button:hover {
+    border-radius: 50%;
+    background-color: rgba(177,212,224, .7);
+}
+.progik{
+    list-style-type: georgian;
 }
