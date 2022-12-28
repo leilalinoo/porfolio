@@ -1,4 +1,4 @@
 * WEBOLDALAK *
 Webáruház pages link            -   https://github.com/leilalinoo/weboldal.git
-Tündérkönyvek pages link        -   https://github.com/leilalinoo/tunderkonyvek.git
-Grid, téli vers táblázat p. l.  -   https://github.com/leilalinoo/grid_tablazat.git
+Tündérkönyvek pages link        -   https://leilalinoo.github.io/weboldal/
+Grid, téli vers táblázat p. l.  -   https://leilalinoo.github.io/grid_tablazat/
