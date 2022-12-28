@@ -127,7 +127,6 @@ img {
 .container:hover .overlay {
   opacity: 1;
 }
-
 .text {
   color: white;
   font-size: 20px;
@@ -153,6 +152,9 @@ img {
   border: 1px solid red;
   margin: 5px;
   padding: 5px;
+}
+.progik{
+    list-style-type: georgian;
 }
 .itsme {
   text-align: center;
