@@ -119,6 +119,10 @@ img{
     text-decoration: none;
     color: white;
 }
+.erettsegilink{
+    color: darkturquoise;
+    text-decoration: none;
+}
 .adag{
     padding-bottom: 15px;
     border: 1px solid red;
