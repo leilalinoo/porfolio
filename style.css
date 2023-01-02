@@ -141,7 +141,10 @@ img {
 .weblaplink {
   padding: 5px;
   text-decoration: none;
-  color: white;
+  color: darkturquoise;
+}
+ .weblaplink:hover{
+  color: #ba0000;
 }
 .link {
   color: darkturquoise;
