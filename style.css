@@ -42,10 +42,6 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
-nav li {
-  list-style-type: none;
-  padding: 5px;
-}
 
 .dropdown {
   float: left;
@@ -62,7 +58,8 @@ nav li {
   font-family: inherit;
   margin: 0;
 }
-nav a, .dropdown-content a{
+nav a,
+.dropdown-content a {
   float: left;
   font-size: 16px;
   padding: 14px 16px;
@@ -124,6 +121,14 @@ article {
 }
 aside {
   grid-area: as;
+}
+.kepek {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+.kepek img {
+  max-height: 250px;
 }
 footer {
   font-family: "Klee One";
@@ -201,7 +206,7 @@ img {
 .progik {
   list-style-type: georgian;
 }
-.itsme {
+.cim {
   text-align: center;
   font-family: "Klee One";
 }
@@ -230,13 +235,18 @@ audio::-webkit- .progik {
     grid-template-columns: 1fr 1fr;
     width: 90%;
   }
-  #menu {
+  nav {
     grid-template-columns: 1fr 1fr;
     text-align: center;
   }
-  #menu li {
-    margin: 5px;
-    align-content: center;
+  .kepek {
+    grid-template-columns: 1fr;
+  }
+  .kepek img{
+    margin: auto;
+    align-items: center;
+    width: 50%;
+    max-height: none;
   }
 }
 @media screen and (max-width: 400px) {
@@ -244,7 +254,7 @@ audio::-webkit- .progik {
     grid-template-columns: 1fr;
     width: 90%;
   }
-  #menu {
+  nav {
     grid-template-columns: 1fr;
     padding: 0;
   }
