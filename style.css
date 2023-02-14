@@ -33,19 +33,40 @@ header {
   font-size: 20px;
   grid-area: h;
 }
+
 nav {
   grid-area: n;
-}
-#menu li {
-  list-style-type: none;
-  padding: 5px;
-}
-#menu {
+  overflow: hidden;
+  background-color: #333;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
-#menu a {
+nav li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(0, 255, 8);
+  padding: 14px 16px;
+  background-color: #333;
+  font-family: inherit;
+  margin: 0;
+}
+nav a, .dropdown-content a{
+  float: left;
+  font-size: 16px;
+  padding: 14px 16px;
+
   border-bottom: 1px solid white;
   text-align: center;
   padding: 5px;
@@ -68,12 +89,33 @@ nav {
   background-repeat: no-repeat;
   transition: background-size 400ms;
 }
-#menu a:hover {
+nav a:hover,
+.dropdown:hover .dropbtn {
   color: red;
 
   background-size: 0 3px, 100% 3px;
 }
-#menu a:link {
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+nav a:link {
   color: rgb(0, 255, 8);
 }
 article {
@@ -143,7 +185,7 @@ img {
   text-decoration: none;
   color: darkturquoise;
 }
- .weblaplink:hover{
+.weblaplink:hover {
   color: #ba0000;
 }
 .link {
@@ -156,8 +198,8 @@ img {
   margin: 5px;
   padding: 5px;
 }
-.progik{
-    list-style-type: georgian;
+.progik {
+  list-style-type: georgian;
 }
 .itsme {
   text-align: center;
